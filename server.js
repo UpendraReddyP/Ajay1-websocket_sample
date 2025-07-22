@@ -6,7 +6,7 @@ const jwt = require('jsonwebtoken');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const path = require('path');
-const { pool, initializeDatabase } = require('./db');
+
 
 // === Constants ===
 const SECRET_KEY = 'mysecretkey';
